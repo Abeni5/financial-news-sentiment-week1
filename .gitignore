@@ -1,8 +1,14 @@
-*.pyc
-__pycache__/
-*.ipynb_checkpoints/
-.venv/
-*.env
-*.DS_Store
+# Ignore data folders and CSV files
+data/
+*.csv
 
-data/*.csv
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+.venv/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
