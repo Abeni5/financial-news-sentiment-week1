@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -67,3 +68,19 @@ Desktop.ini
 
 # GitHub workflows cache
 .github/workflows/*.log
+=======
+# Ignore data folders and CSV files
+data/
+*.csv
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+.venv/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+>>>>>>> 31d59a32a5f5947daa124c69d718bf31a0ce06f0
